@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": "f6f2",
+      "name": "Sergio",
+      "lastName": "Bautista",
+      "num": "3143656024",
+      "gender": "masculino",
+      "adress": "calle 23",
+      "email": "sergio@gmail.com",
+      "password": "123",
+      "rol": "customer"
+    },
+    {
+      "id": "fa0b",
+      "name": "Juan",
+      "lastName": "Sebastian",
+      "num": "314135",
+      "gender": "masculino",
+      "adress": "calle 984",
+      "email": "serg@gmail.com",
+      "password": "84",
+      "rol": "customer"
+    },
+    {
+      "id": "fa0b6",
+      "name": "Sergio",
+      "lastName": "Malaver",
+      "num": "345345604",
+      "gender": "masculino",
+      "adress": "calle 128 # 24",
+      "email": "admin1@gmail.com",
+      "password": "admin1",
+      "rol": "admin"
+    },
+    {
+      "id": "fa0b89",
+      "name": "Jerson",
+      "lastName": "Holman",
+      "num": "31345603",
+      "gender": "masculino",
+      "adress": "calle 144 # 82",
+      "email": "cajero1@gmail.com",
+      "password": "cajero1",
+      "rol": "cashier"
+    },
+    {
+      "id": "8cec",
+      "name": "Jersiton",
+      "lastName": "Muñocitos",
+      "num": "3143567043",
+      "gender": "femenino",
+      "adress": "Calle 45 # 98 - 15",
+      "email": "almacenista@gmail.com",
+      "password": "123",
+      "rol": "storekeeper"
+    }
+  ],
+  "products": [
+    {
+      "id": "2483",
+      "nombre": "Alicatess",
+      "cantidad": "150",
+      "precio": "15000",
+      "descripcion": "hola",
+      "imagen": "https://i0.wp.com/pinturasyyesos.com/wp-content/uploads/2021/02/alicate-8-pretul.jpg?fit=800%2C800&ssl=1"
+    },
+    {
+      "id": "6b3c",
+      "nombre": "Meceta",
+      "cantidad": 15,
+      "precio": 4500,
+      "descripcion": "Linda maceta",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUmmdUfAiK3NxKeiTqFGvvH-_QxC8yreG97Q&s"
+    },
+    {
+      "id": "5fc3",
+      "nombre": "GiganteNoble",
+      "cantidad": 2394,
+      "precio": 4500,
+      "descripcion": "Hola niños",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLdVcW6nxse1FYJKWFye_VtcHN_Ve8HmG9TQ&s"
+    },
+    {
+      "id": "7b16",
+      "nombre": "Coco",
+      "cantidad": 760,
+      "precio": 4000,
+      "descripcion": "Lindo",
+      "imagen": "https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1900&h=1400"
+    }
+  ],
+  "pedido": [
+    {
+      "id": "33b8",
+      "name": "Sergio Bautista",
+      "num": "3125028990",
+      "adress": "Calle 133 # 132 B 32",
+      "paymentMethod": "Efectivo",
+      "products": [
+        {
+          "id": 1,
+          "name": "Martillo",
+          "unitPrice": 20000,
+          "quantityToAdd": 9
+        },
+        {
+          "id": 1,
+          "name": "Martillo",
+          "unitPrice": 20000,
+          "quantityToAdd": 1
+        }
+      ],
+      "totalPrice": 200000,
+      "orderDate": "28-08-2024 00:14"
+    }
+  ],
+  "venta": [
+    {
+      "id": "c700",
+      "descuento": 1,
+      "subtotal": 20000,
+      "total": 19999,
+      "metodoPago": "Tarjeta",
+      "fechaHora": "28-08-2024 00:21:55"
+    }
+  ]
+}
